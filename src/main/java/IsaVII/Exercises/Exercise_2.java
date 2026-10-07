@@ -2,7 +2,6 @@ package IsaVII.Exercises;
 
 public class Exercise_2  extends Exercise {
     /*
-    Question
     Ask the user to enter a year. Print whether it is a leap year or not.
     
     Example interaction:

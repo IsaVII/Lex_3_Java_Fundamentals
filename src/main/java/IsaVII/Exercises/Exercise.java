@@ -13,6 +13,7 @@ public abstract class Exercise {
         return switch (number) {
             case 1 -> new Exercise_1();
             case 2 -> new Exercise_2();
+            case 3 -> new Exercise_3();
             default -> throw new IllegalArgumentException("No exercise " + number);
         };
     }
