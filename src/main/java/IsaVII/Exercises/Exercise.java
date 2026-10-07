@@ -19,6 +19,7 @@ public abstract class Exercise {
             case 6 -> new Exercise_6();
             case 7 -> new Exercise_7();
             case 8 -> new Exercise_8();
+            case 9 -> new Exercise_9();
             default -> throw new IllegalArgumentException("No exercise " + number);
         };
     }
