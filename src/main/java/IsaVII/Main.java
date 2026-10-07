@@ -1,12 +1,12 @@
 package IsaVII;
 
-import IsaVII.Exercises.Exercise_1;
+import IsaVII.Exercises.Exercise;
 
 public class Main {
     void main() {
 
-        Exercise_1 exercise_1 = new Exercise_1();
-        exercise_1.run();
-        
+        //change the numbers to run different exercises
+        Exercise exercise = Exercise.of(2);
+        exercise.run();
     }
 }

@@ -8,4 +8,12 @@ public abstract class Exercise {
         IO.println("***** Exercise " + exerciseNumber + " *****");
         
     }
+
+    public static Exercise of(int number) {
+        return switch (number) {
+            case 1 -> new Exercise_1();
+            case 2 -> new Exercise_2();
+            default -> throw new IllegalArgumentException("No exercise " + number);
+        };
+    }
 }
