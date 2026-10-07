@@ -41,7 +41,7 @@ public class Exercise_3 extends Exercise {
             grandTotal += item.totalCost();
         }
         IO.println("------------------------------");
-        System.out.printf("Grand Total:           %.2f SEK%n", grandTotal);
+        IO.println(String.format("Grand Total:           %.2f SEK%n", grandTotal));
         IO.println("==============================");
     }
     
@@ -62,7 +62,7 @@ public class Exercise_3 extends Exercise {
         }
         
         public void printReceiptLine() {
-            System.out.printf("%-12s %d x %.2f = %.2f SEK%n", name, quantity, pricePerUnit, totalCost());
+            IO.println(String.format("%-12s %d x %.2f = %.2f SEK%n", name, quantity, pricePerUnit, totalCost()));
         }
     }
 }
