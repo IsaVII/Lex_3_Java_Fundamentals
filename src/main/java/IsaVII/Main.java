@@ -1,12 +1,12 @@
 package IsaVII;
 
-import IsaVII.Exercises.Exercise;
+import IsaVII.Exercises.Fundamentals_2.Exercise;
 
 public class Main {
     void main() {
 
         //change the numbers to run different exercises 1-20
-        Exercise exercise = Exercise.of(20);
+        Exercise exercise = Exercise.of(1);
         exercise.run();
     }
 }

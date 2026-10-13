@@ -1,6 +1,4 @@
-package IsaVII.Exercises;
-
-import java.awt.print.Printable;
+package IsaVII.Exercises.Fundamentals_1;
 
 public class Exercise_3 extends Exercise {
     /*

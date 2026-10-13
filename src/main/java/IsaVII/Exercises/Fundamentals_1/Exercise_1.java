@@ -1,4 +1,4 @@
-package IsaVII.Exercises;
+package IsaVII.Exercises.Fundamentals_1;
 
 public class Exercise_1 extends Exercise {
     /*
