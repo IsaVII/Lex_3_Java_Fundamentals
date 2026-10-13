@@ -14,7 +14,7 @@ public abstract class Exercise {
     public static Exercise of(int number) {
         return switch (number) {
             case 1 -> new Exercise_1();
-//            case 2 -> new Exercise_2();
+            case 2 -> new Exercise_2();
 //            case 3 -> new Exercise_3();
 //            case 4 -> new Exercise_4();
 //            case 5 -> new Exercise_5();
