@@ -13,6 +13,9 @@ public class Exercise_2 extends Exercise {
 
     @Override
     public void run() {
+        exerciseNumber = 2;
+        super.run();
+        
         String email = IO.readln("Enter email: ");
         int atIndex = email.indexOf("@");
         String username = email.substring(0, atIndex);

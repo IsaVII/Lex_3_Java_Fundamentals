@@ -9,11 +9,15 @@ public class Exercise_1 extends Exercise {
     Enter a word: Stockholm
     Reversed: mlohkcotS
      */
-    
+
     @Override
     public void run() {
-            String word = IO.readln("Enter a word: ");
-            String reversed = new StringBuilder(word).reverse().toString();
-            IO.println("Reversed: " + reversed);
+
+        exerciseNumber = 1;
+        super.run();
+
+        String word = IO.readln("Enter a word: ");
+        String reversed = new StringBuilder(word).reverse().toString();
+        IO.println("Reversed: " + reversed);
     }
 }

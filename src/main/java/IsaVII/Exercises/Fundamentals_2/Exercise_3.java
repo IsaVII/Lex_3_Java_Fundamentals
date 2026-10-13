@@ -15,6 +15,9 @@ public class Exercise_3 extends Exercise {
 
     @Override
     public void run() {
+        exerciseNumber = 3;
+        super.run();
+        
         String sentence = IO.readln("Enter a sentence: ");
         int vowels = 0;
         int consonants = 0;
