@@ -18,7 +18,7 @@ public abstract class Exercise {
             case 3 -> new Exercise_3();
             case 4 -> new Exercise_4();
             case 5 -> new Exercise_5();
-//            case 6 -> new Exercise_6();
+            case 6 -> new Exercise_6();
 //            case 7 -> new Exercise_7();
 //            case 8 -> new Exercise_8();
 //            case 9 -> new Exercise_9();
