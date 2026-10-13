@@ -64,10 +64,9 @@ Ask the user to enter three appointment names and their date-times in yyyy-MM-dd
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern("eeee, dd MMMM yyyy 'at' HH:mm");
 
             //to have the first day written in capital letter
-            String formattedDate = date.format(formatter);
-            formattedDate = formattedDate.substring(0, 1).toUpperCase() + formattedDate.substring(1);
+            formatter = formatter.withLocale(java.util.Locale.ENGLISH);
             
-            return String.format("%-20s - %s", name, formattedDate);
+            return String.format("%-20s - %s", name, date.format(formatter));
         }
     }
 }

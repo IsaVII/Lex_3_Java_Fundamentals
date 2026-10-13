@@ -6,7 +6,7 @@ public class Main {
     void main() {
 
         //change the numbers to run different exercises 1-20
-        Exercise exercise = Exercise.of(17);
+        Exercise exercise = Exercise.of(18);
         exercise.run();
     }
 }
