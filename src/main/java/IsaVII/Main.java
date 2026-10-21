@@ -7,7 +7,7 @@ public class Main {
 
         //change the numbers to run different exercises  
         //or open the exercise class and run it directly
-        Exercise exercise = Exercise.of(7);
+        Exercise exercise = Exercise.of(8);
         exercise.run();
     }
 }
