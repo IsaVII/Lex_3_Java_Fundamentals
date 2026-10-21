@@ -30,9 +30,9 @@ public class Exercise_3 extends Exercise {
         String phoneNumber = phoneBook.get(name);   
         
         if (phoneNumber != null) {
-            System.out.println("Phone number: " + phoneNumber);
+            IO.println("Phone number: " + phoneNumber);
         } else {
-            System.out.println("Contact not found.");
+            IO.println("Contact not found.");
         }       
  
     }
