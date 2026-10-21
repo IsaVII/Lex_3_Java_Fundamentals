@@ -1,29 +1,37 @@
 package IsaVII.Exercises.Collections;
 
-import IsaVII.Exercises.Collections.Exercise;
+import java.util.ArrayList;
+
+import static java.util.Arrays.asList;
 
 public class Exercise_1 extends Exercise {
     /*
-    Store your name, age, and city in variables. Then use those variables to print a formatted profile card.
-     Do not hardcode the values directly inside println — they must come from variables.
-    
-    Expected output:
+    You are managing a shopping list.
 
-    ====================
-         My Profile
-    ====================
-    Name : Sofia
-    Age  : 22
-    City : Stockholm
-    ====================
-    Think about it: What data type is right for each piece of information? If you later want to change the city,
-     how many lines of code need to change?
+    Create an ArrayList<String> and add 5 items
+    Print all items numbered (1, 2, 3…)
+    Remove one item by name
+    Print the updated list
      */
     
     @Override
     public void run() {
         exerciseNumber = 1;
         super.run();
+
+        ArrayList<String> shoppingList = new ArrayList<>(asList("Salad", "Tomatoes", "Flour", "Eggs", "Milk"));
         
+        printList(shoppingList);
+        
+        shoppingList.remove("Salad");
+        
+        IO.println("Updated shopping list:");
+        printList(shoppingList);
+    }
+    
+    private void printList(ArrayList<String> list) {
+        for (int i = 0; i < list.size(); i++) {
+            IO.println((i + 1) + ". " + list.get(i));
+        }
     }
 }
