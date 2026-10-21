@@ -1,6 +1,5 @@
 package IsaVII.Exercises.Fundamentals_2;
 
-import IsaVII.Exercises.Fundamentals_2.*;
 
 public abstract class Exercise {
 
