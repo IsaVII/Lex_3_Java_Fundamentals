@@ -4,6 +4,10 @@ package IsaVII.Exercises.Fundamentals_2;
 public abstract class Exercise {
 
     protected int exerciseNumber;
+
+    void main() {
+        run();
+    }
     
     public void run() {
         IO.println("***** Exercise " + exerciseNumber + " *****");
